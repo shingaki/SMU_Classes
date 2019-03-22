@@ -1,0 +1,82 @@
+/**
+ * Float Layout Activity
+ **/
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+}
+
+header {
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #333;
+  background: #FFA500;
+}
+
+section {
+
+}
+
+#left {
+  width: 330px;
+  height: 100px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background: #30948D;
+  float: left;
+}
+
+#middle {
+  width: 330px;
+  height: 100px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background: #9E1212;
+  float: left;
+}
+
+#right {
+  width: 330px;
+  height: 100px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background: #30948D;
+  float: left;
+
+}
+
+#full {
+  height: 300px;
+  width: 1000px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background: #394549;
+  float: left;
+}
+
+#division {
+}
+
+aside {
+  height: 150px;
+  width: 500px;
+  margin: 10px
+  padding: 20px;
+  margin-bottom: 20px;
+  background: #30948D;
+  float: left;
+
+}
+
+footer {
+}
+
+.clearfix::after {
+  content: " ";
+  display: block;
+  clear: both;
+}
